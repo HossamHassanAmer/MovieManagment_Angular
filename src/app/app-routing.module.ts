@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './Pages/home/home.component';
+import { HomeComponent } from './MovieModule/Components/home/home.component';
 import { ErrorComponent } from './error/error.component';
 import { UserProfileComponent } from './Core/Components/user-profile/user-profile.component';
-import { MovieDetailsComponent } from './Pages/movie-details/movie-details.component';
+import { MovieDetailsComponent } from './MovieModule/Components/movie-details/movie-details.component';
 import { UsersDashboardComponent } from './Admin/Pages/users-dashboard/users-dashboard.component';
 import { MoviesDashboardComponent } from './Admin/Pages/movies-dashboard/movies-dashboard.component';
 import { AddNewAdminComponent } from './Admin/Pages/add-new-admin/add-new-admin.component';
