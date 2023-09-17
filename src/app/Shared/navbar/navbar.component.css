@@ -1,0 +1,11 @@
+.logo {
+  color: #56c4ff;
+  font-family: cursive;
+}
+.active-nav-link {
+  background-color: #266ac9;
+  width: 5rem;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+}
