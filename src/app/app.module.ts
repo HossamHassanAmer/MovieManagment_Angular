@@ -16,6 +16,14 @@ import { MoviesDashboardComponent } from './Admin/Pages/movies-dashboard/movies-
 import { UsersDashboardComponent } from './Admin/Pages/users-dashboard/users-dashboard.component';
 import { AddNewAdminComponent } from './Admin/Pages/add-new-admin/add-new-admin.component';
 
+// Primeng
+
+import { AccordionModule } from 'primeng/accordion';
+import {InputTextModule} from 'primeng/inputtext';
+import {ButtonModule} from 'primeng/button';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +44,9 @@ import { AddNewAdminComponent } from './Admin/Pages/add-new-admin/add-new-admin.
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    AccordionModule,
+    InputTextModule,
+    ButtonModule
 
   ],
   providers: [],
