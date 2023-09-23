@@ -9,9 +9,13 @@ import { environment } from 'src/environments/environment.development';
 export class MasterService {
 
   url: string = '';
+    imgURL: string = '';
+
 
   constructor(private http: HttpClient) {
     this.url = environment.UrlBase;
+        this.imgURL = environment.ImageBaseUrl;
+
   }
 
   getAll(base: string): Observable<any> {

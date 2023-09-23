@@ -18,6 +18,7 @@ export class MovieService {
 
   url: string = '';
 
+
   movieDetails: string = 'Details';
 
   movieUpdate: string = 'Update';
@@ -25,7 +26,8 @@ export class MovieService {
   constructor(
     private master: MasterService,
     private http: HttpClient
-  ) { this.url = environment.UrlBase; }
+  ) { this.url = environment.UrlBase;
+  }
 
   getAllTypes() {
     return this.master.getAll(this.type);
